@@ -1,0 +1,16 @@
+name: sample workflow for pull requests
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - dev
+      - dev-*
+
+jobs:
+  complete-me:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print error
+        run: echo Please complete the workflows for this project || exit 1

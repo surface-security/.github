@@ -1,0 +1,9 @@
+version: 2
+updates:
+  # Ref: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+  - package-ecosystem: "pip" # choose which one fits best
+    directory: "/" # package manifest location
+    schedule:
+      interval: "weekly" # runs every monday
+    pull-request-branch-name:
+      separator: "-" # use - instead of / as branch name to not cause issues with pipelines.
