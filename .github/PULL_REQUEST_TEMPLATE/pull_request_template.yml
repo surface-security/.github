@@ -1,0 +1,45 @@
+name: Pull Request
+description: File a pull request
+body:
+  - type: checkboxes
+    attributes:
+      label: PR pre-check
+      description: Please check if the PR fullfills these requirements:
+      options:
+        - label: The commit message follows our guidelines
+          required: true
+        - label: Tests for the changes have been added (for bug fixes / features)
+          required: true
+        - label: Docs have been added / updated (for bug fixes / features)
+          required: true
+  - type: textarea
+    attributes:
+      label: Kind of change
+      description: **What kind of change does this PR introduce?** (Bug fix, feature, docs update, ...)
+  - type: textarea
+    attributes:
+      label: Current Behavior
+      description: **What is the current behavior?** (You can also link to an open issue here)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: New Behavior
+      description: **What is the new behavior (if this is a feature change)?**
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Breaking change
+      description: **Does this PR introduce a breaking change?** (What changes might users need to make in their application due to this PR?)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Kind of change
+      description: **Other information**:
+    validations:
+      required: false
+
+
+
