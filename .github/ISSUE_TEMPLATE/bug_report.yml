@@ -14,7 +14,7 @@ body:
     options:
       - label: My issue isn't already found on the issue tracker.
         required: true
-      - label: I have replicated my issue using the latest version of the provider and it is still present.
+      - label: I have replicated my issue using the latest version and it is still present.
         required: true
 - type: textarea
   attributes:
@@ -26,12 +26,12 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Affected resource(s)
+    label: Affected version(s)
     description: |
       Please list the resources as a list, for example:
-      - x
-      - y
-      - z
+      - Surface 1.0
+      - Python 3.11
+      - ...
 
       If this issue appears to affect multiple resources, please mention this.
   validations:
@@ -47,7 +47,7 @@ body:
       Be sure to redact or sanitise any sensitive information (such as API keys or tokens) in 
       your logs.
   validations:
-    required: true
+    required: false
 - type: textarea
   attributes:
     label: Panic output
