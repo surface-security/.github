@@ -6,4 +6,3 @@ The Surface Security project is an open source initivate to provide a working se
 
 This org houses all code repositories for the apps and modules that have been and will be open sourced throughout time.
 
-For general community guidelines, to learn how we organize the work and more, please visit [Guidelines](https://github.com/surface-security/guidelines/)
