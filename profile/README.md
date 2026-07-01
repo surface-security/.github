@@ -1,6 +1,6 @@
 # Surface Security: Open Source Intelligence and Automation Platform
 
-![image](https://user-images.githubusercontent.com/7786556/214349026-4d3bcfde-7dbf-4b97-a594-357eb78f9cee.png)
+![image](https://github.com/surface-security/.github/blob/main/archived_surf_sec.jpg?raw=true)
 
 The Surface Security project is an open source initivate to provide a working security intelligence and automation platform that empowers individuals and engineering teams to create an inventory of a company's assets, as well as bring visibility over said assets and their relationships with the many data points Surface collects.
 
