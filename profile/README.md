@@ -1,4 +1,4 @@
-# Surface Security: Open Source Intelligence and Automation Platform
+# Surface Security: Open Source Intelligence and Automation Platform - ARCHIVED
 
 ![image](https://github.com/surface-security/.github/blob/main/archived_surf_sec.jpg?raw=true)
 
